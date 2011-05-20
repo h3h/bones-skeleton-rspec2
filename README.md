@@ -13,7 +13,7 @@ you in to always requiring Mr Bones itself. This skeleton aims to alleviate
 that concern by providing a nice, clean and independent skeleton for the
 creation of new gems.
 
- [1]: http://iampedantic.com/posts/FIXME
+ [1]: http://iampedantic.com/post/4820874839/gem-templates
 
 This skeleton assumes use of Git and RSpec 2. Feel free to modify it to your
 own needs if you don't use these tools.
@@ -25,9 +25,11 @@ First, you'll need Mr Bones installed:
     $ gem install bones
 
 (Side note: if you're using `sudo` to install your gems, you're doing it
-wrong. See [Homebrew's notes on Gems, Eggs and Perl Modules][2]).
+wrong. See [Homebrew's notes on Gems, Eggs and Perl Modules][2] and then
+probably [RVM][3]).
 
  [2]: http://github.com/mxcl/homebrew/wiki/Gems,-Eggs-and-Perl-Modules
+ [3]: https://rvm.beginrescueend.com/
 
 Then you'll want to “freeze” this skeleton in your install of Mr Bones, so
 you can use it to create new gems. I'm naming the skeleton 'rspec2', but you
@@ -50,5 +52,5 @@ default [Mr Bones][4] skeleton.
 
 # License
 
-This skeleton is distributed under the MIT License, as mentioned in the
+This skeleton is distributed under the MIT License. See the
 `LICENSE` file.
